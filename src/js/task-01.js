@@ -7,8 +7,7 @@ console.log(numberOfCategories);
 const categoryTitleOne = document.querySelector('h2').textContent;
 console.log(categoryTitleOne);
 
-const categoryItems = document.querySelector('li').textContent;
-console.log(categoryItems);
+// const categoryElements = 
 
-const categoryItemsNumberOne = categoryItems.length;
-console.log(categoryItemsNumberOne);
+const number = document.querySelectorAll('li');
+console.log(number);
