@@ -17,7 +17,7 @@ const listEl = document.querySelector('ul.gallery');
 console.log(listEl);
 
 const imageEl = images.map (image => {
-  return `image.src="${image.url}" image.alt="${image.alt}`
+  return `<img .src="${image.url}" alt="${image.alt}`
 });
 
 listEl.insertAdjacentHTML('beforeend', ...imageEl);
