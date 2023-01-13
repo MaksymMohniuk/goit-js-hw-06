@@ -20,4 +20,4 @@ const imageEl = images.map (image => {
   return `image.src="${image.url}" image.alt="${image.alt}`
 });
 
-listEl.insertAdjacentHTML('beforeend', imageEl);
+listEl.insertAdjacentHTML('beforeend', ...imageEl);
