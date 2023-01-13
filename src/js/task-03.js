@@ -21,4 +21,4 @@ const imageEl = images.map (image => {
 });
 console.log(imageEl);
 
-listEl.insertAdjacentHTML('beforeend', ...imageEl);
+listEl.insertAdjacentHTML('beforeend', imageEl);
