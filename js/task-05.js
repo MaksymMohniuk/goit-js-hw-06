@@ -3,10 +3,8 @@ const output = document.getElementById("name-output");
 console.log(output);
 
 textInput.addEventListener("input", (event) => {
-    output.textContent = event.currentTarget.value;
+    output.textContent = event.currentTarget.value ? event.currentTarget.value : 'Anonymous';
   });
 
-  textInput.addEventListener("blur", (event) => {
-    output.textContent = 'Anonymous';
-  });
+  
 
